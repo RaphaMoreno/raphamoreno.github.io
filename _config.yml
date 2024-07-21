@@ -119,7 +119,7 @@ links:
       name: Google Scholar
       show: true
       href: https://scholar.google.com/citations?user=mWWD3GwAAAAJ&hl=de&oi=sra
-      icon: fab fa-google-scholar
+      icon: fab fa-google
   - pdf:
       name: Curriculum
       show: false
