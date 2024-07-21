@@ -173,7 +173,7 @@ links:
   - publications:
       name: Publications
       show: true
-      href: publications.md
+      href: publications.html
       icon: far fa-newspaper
   - researchgate:
       name: ResearchGate
