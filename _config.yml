@@ -207,6 +207,6 @@ extra_html: >
 #extra_button:
 extra_button: >
     <a href="publications.html" class="btn">Click Me</a>
-    <a href="publications.html" class="btn" style="color: red" >Click Me Too</a>
+    <a href="https://www.google.de" class="btn" style="color: red" >Click Me Too</a>
 
 #EOF
