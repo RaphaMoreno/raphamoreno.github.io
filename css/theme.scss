@@ -143,12 +143,25 @@ footer {
     font-size: smaller;
     color: rgba(255, 255, 255, 0.4);
 
+    .container {
+        max-width: 100%;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
     .col {
         padding: 0;
+        text-align: center;
     }
+    
     a {
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
+        
         &:hover {
             text-decoration: none;
             color: white;
