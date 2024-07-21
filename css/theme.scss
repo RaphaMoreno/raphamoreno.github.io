@@ -114,30 +114,6 @@ div.row.links {
     }
 }
 
-/* --------- Extra Button HTML ----------------------------------------------------------------- */
-
-.personal-extra-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 24px;
-    color: #FFFFFF; /* Default text color */
-    background-color: transparent; /* Adjust as needed */
-    border: 2px solid #FFFFFF; /* Default border color */
-    border-radius: 3px;
-    text-decoration: none; /* Remove text decoration */
-    font-weight: bold; /* Make font bold */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition effects */
-
-    &:hover {
-        color: #FFFFFF;
-        text-decoration: underline overline #FFFFFF;
-        -webkit-transition: 300ms;
-        -moz-transition: 300ms;
-        transition: 300ms;
-        background-color: rgba(0, 0, 0, 0.5);;
-    }
-}
-
 /* --------- Footer ---------------------------------------------------------------------------- */
 
 footer {
