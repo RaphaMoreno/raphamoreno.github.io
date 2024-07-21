@@ -170,21 +170,21 @@ links:
       show: true
       href: mailto:jonathan.doe@host.domain
       icon: fas fa-envelope
-  - publickey:
+  - publications:
       name: Publications
       show: true
-      href: "Publications"
-      icon: fas fa-key
+      href: publications.html
+      icon: far fa-newspaper
   - researchgate:
       name: ResearchGate
       show: true
       href: https://www.researchgate.net
       icon: fab fa-researchgate
-  - projects:
-      name: Projects
+  - external_website:
+      name: External Website
       show: true
-      href: https://raphamoreno.github.io/publications.md
-      icon: fas fa-book
+      href: https://www.google.de
+      icon: fas fa-globe
   - pdf:
       name: Curriculum
       show: false
