@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #00DF51;		/* change the background color here, default #312450; make changes in line 1919, 2360, 2529, 3546 */
+		background: #312450;		/* change the background color here, default #312450; line 1919 will override everything remove !important to apply changes to lines 2360, 2529, 3546 */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1916,7 +1916,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #00DF51 !important;
+			color: #EFEFDE !important;
 		}
 
 			input[type="submit"].primary:after,
