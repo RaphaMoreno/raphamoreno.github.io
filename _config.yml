@@ -185,6 +185,11 @@ links:
       show: true
       href: https://raphamoreno.github.io/publications.md
       icon: fas fa-book
+  - pdf:
+      name: Curriculum
+      show: false
+      href: pdf/PDFNAME.pdf
+      icon: far fa-file-pdf
 
 
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
