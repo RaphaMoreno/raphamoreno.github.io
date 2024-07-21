@@ -114,6 +114,19 @@ div.row.links {
     }
 }
 
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
 
 /* --------- Footer ---------------------------------------------------------------------------- */
 
