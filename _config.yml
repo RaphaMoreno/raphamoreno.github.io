@@ -84,6 +84,7 @@ links:
       name: Twitter
       show: true
       href: https://twitter.com/YOUR_TWITTER_USERNAME
+      rel: noopener
       icon: fab fa-twitter
 #  - weibo:
 #      name: 微博
