@@ -2,3 +2,5 @@
 /_support/
 /.jekyll-metadata
 /.jekyll-cache/
+/.vscode/
+/_includes/
