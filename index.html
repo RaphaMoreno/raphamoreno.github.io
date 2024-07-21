@@ -79,9 +79,7 @@ permalink: /
 {% for hash in site.extra_button %}{% for buttonInfo in hash %}{% if buttonInfo[1].show %}
     <div class="col-xs-12 col-sm-2 col-lg-1 px-3 px-sm-0 mt-2 mt-sm-3 text-sm-center">
         <a href="{{ buttonInfo[1].href }}">
-            <i class="{{ buttonInfo[1].icon }} fa-fw">
-            </i>
-        <span class="d-inline d-sm-none">{{ buttonInfo[1].name }}</span>
+            <span class="d-inline d-sm-none">{{ buttonInfo[1].name }}</span>
         </a>
     </div>
 {% endif %}{% endfor %}{% endfor %}
