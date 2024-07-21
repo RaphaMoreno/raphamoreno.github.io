@@ -3255,7 +3255,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #A2F0D6;     /* default value #261c3e   >> this should change the color of the footer */
 		}
 
 		.wrapper.style1 {
