@@ -142,20 +142,26 @@ footer {
     width: 100%;
     font-size: smaller;
     color: rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    overflow: hidden;
 
     .container {
         max-width: 100%;
+        box-sizing: border-box;
     }
 
     .row {
         display: flex;
         justify-content: center;
         margin: 0;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .col {
         padding: 0;
         text-align: center;
+        box-sizing: border-box;
     }
     
     a {
