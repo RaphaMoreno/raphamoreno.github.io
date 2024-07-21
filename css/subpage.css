@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;		/* change the background color here, default #312450; line 1919 will override everything remove !important to apply changes to lines 2360, 2529, 3546 */
+		background: #D6F638;		/* change the background color here, default #312450; line 1919 will override everything remove !important to apply changes to lines 2360, 2529, 3546 */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
