@@ -57,7 +57,7 @@ permalink: /
 </div>
 
 <div class="row justify-content-center links pt-1 pt-sm-2">
-    {% if linkInfo[1].show %}
+    {% for linkInfo in hash %}{% if linkInfo[1].show %}
     <div class="col-xs-12 col-sm-2 col-lg-1 px-3 px-sm-0 mt-2 mt-sm-3 text-sm-center">
         <a href="{{ linkInfo[1].href }}
             <i class="{{ linkInfo[1].icon }} fa-fw">
