@@ -57,6 +57,8 @@ permalink: /
     </div>
 </div>
 
+
+<!-- Social Links -->
 <div class="row justify-content-center links pt-1 pt-sm-2">
     {% for hash in site.links %}
     {% for linkInfo in hash %}
@@ -74,6 +76,8 @@ permalink: /
     {% endfor %}
 </div>
 
+    
+<!-- Extra HTML Text -->
 {% if site.extra_html %}
 <div class="row justify-content-center">
     <div class="col mt-3 text-sm-center fuse-core-extra">{{ site.extra_html }}
@@ -81,26 +85,35 @@ permalink: /
 </div>
 {% endif %}
 
-
+    
+<!-- Buttons for Subpages -->
+<!-- About Me Subpage -->
 <div class="row justify-content-center pt-1 pt-sm-2">
     <div class="col-xs-12 col-sm-3 col-lg-3 px-2 px-sm-1 mt-2 mt-sm-3 text-sm-center">
-        <a href="/outreach.html" class="personal-extra-button">
-            Outreach
+        <a href="/aboutme.html" class="personal-extra-button">
+        About Me
         </a>
     </div>
-    <div class="col-xs-12 col-sm-3 col-lg-3 px-2 px-sm-1 mt-2 mt-sm-3 text-sm-center">
-        <a href="/publications.html" class="personal-extra-button">
-            Publications
-        </a>
-    </div>
+
+<!-- Research Subpage -->        
     <div class="col-xs-12 col-sm-3 col-lg-3 px-2 px-sm-1 mt-2 mt-sm-3 text-sm-center">
         <a href="/research/project_1.html" class="personal-extra-button">
-            Research
+        Research
         </a>
     </div>
+    
+<!-- Publication Subpage -->        
     <div class="col-xs-12 col-sm-3 col-lg-3 px-2 px-sm-1 mt-2 mt-sm-3 text-sm-center">
-        <a href="/aboutme.html" class="personal-extra-button">
-            About Me
+        <a href="/publications.html" class="personal-extra-button">
+        Publications
+        </a>
+    </div>
+   
+<!-- Outreach Subpage -->    
+
+    <div class="col-xs-12 col-sm-3 col-lg-3 px-2 px-sm-1 mt-2 mt-sm-3 text-sm-center">
+        <a href="/outreach.html" class="personal-extra-button">
+        Outreach
         </a>
     </div>
 </div>
@@ -109,6 +122,8 @@ permalink: /
 </div> 
 </div>
 
+
+<!-- Footer -->    
 <footer>
     <div class="container">
         <div class="row">
