@@ -9,8 +9,8 @@
 
 /* To change the color of the background, modify the color values in 
 	line 108 and line 1925 	for background (wrapper) #708090 slate gray
-	line 3398		for background (header)  #7D98A1 cadet gray
-	line 3264		for background (footer)  #272838 raisin black
+	line 3398		for background (header)  #25383C dark slate gray
+	line 3264		for background (footer)  #151d2a mirage
 */
 
 html, body, div, span, applet, object,
@@ -3261,7 +3261,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #272838;     /* default value #261c3e   >> this should change the color of the footer */
+			background-color: #151d2a;     /* default value #261c3e   >> this should change the color of the footer */
 		}
 
 		.wrapper.style1 {
@@ -3395,7 +3395,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #7D98A1;		/* default color: #5e42a6   */
+		background-color: #25383C;		/* default color: #5e42a6   */
 		cursor: default;
 		padding: 1.75em 2em;
 	}
