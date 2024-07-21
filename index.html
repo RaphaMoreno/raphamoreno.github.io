@@ -86,7 +86,7 @@ permalink: /
     {% for buttonInfo in site.extra_button %}
     {% if buttonInfo[1].show %}
         <div class="col-xs-12 col-sm-2 col-lg-1 px-3 px-sm-0 mt-2 mt-sm-3 text-sm-center personal-extra-button">
-            <button type="extra_button" class="personal-extra-button" onclick="window.location.href='{ buttonInfo[1].href }}';">
+            <button type="button" class="personal-extra-button" onclick="window.location.href='{{ buttonInfo[1].href }}';">
                 {{ buttonInfo[1].name }}
             </button>
         </div>
