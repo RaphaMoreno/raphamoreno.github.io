@@ -206,9 +206,6 @@ extra_html: >
 # Extra Button which will be displayed below the Extra HTML. Keep it short. Leave empty to disable.
 #extra_button:
 extra_button:
-  - publications:
-      name: Publications
-      show: true
-      href: publications.html
+    <a href="publications.html" class="btn" style="color: red">Click Me</a>
 
 #EOF
