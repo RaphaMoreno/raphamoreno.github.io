@@ -183,7 +183,7 @@ links:
   - projects:
       name: Projects
       show: true
-      href: https://raphamoreno.github.io/projects
+      href: https://raphamoreno.github.io/publications.md
       icon: fas fa-book
 
 
