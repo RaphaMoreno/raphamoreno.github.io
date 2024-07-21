@@ -175,6 +175,16 @@ links:
       show: true
       href: "Publications"
       icon: fas fa-key
+  - researchgate:
+      name: ResearchGate
+      show: true
+      href: https://www.researchgate.net
+      icon: fab fa-researchgate
+  - projects:
+      name: Projects
+      show: true
+      href: https://raphamoreno.github.io/projects
+      icon: fas fa-book
 
 
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
