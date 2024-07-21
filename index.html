@@ -76,16 +76,9 @@ permalink: /
 
 {% if site.extra_button %}
 <div class="row justify-content-center pt-1 pt-sm-2">
-{% for hash in site.extra_button %}{% for buttonInfo in hash %}{% if buttonInfo[1].show %}
-    <div class="col-xs-12 col-sm-2 col-lg-1 px-3 px-sm-0 mt-2 mt-sm-3 text-sm-center">
-        <a href="{{ buttonInfo[1].href }}">
-            <span class="d-inline d-sm-none">{{ buttonInfo[1].name }}</span>
-        </a>
-    </div>
-{% endif %}{% endfor %}{% endfor %}
-    
+    <div class="col-xs-12 col-sm-2 col-lg-1 px-3 px-sm-0 mt-2 mt-sm-3 text-sm-center">{{ site.extra_button }}</div>
 </div>
-</div>
+{% endif %}
 
 <footer><div class="container"><div class="row">
     <div class="col text-center">Built on the <a href="https://github.com/tsjensen/fuse-core">Fuse Core</a>
