@@ -7,6 +7,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* To change the color of the background, modify the color values in 
+	line 108 and line 1925 	for background (wrapper) #708090 slate gray
+	line 3398		for background (header)  #7D98A1 cadet gray
+	line 3264		for background (footer)  #272838 raisin black
+*/
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -99,7 +105,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #F27F91;		/* change the background color here, default #312450; line 1919 will override everything remove !important to apply changes to lines 2360, 2529, 3546 */
+		background: #708090;		/* change the background color here and in line 1919, default #312450; line 1919 will override everything. remove !important to apply changes to lines 2360, 2529, 3546 */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1916,7 +1922,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #F27F91 !important;		/* default value #312450    */
+			color: #708090 !important;		/* default value #312450    */
 		}
 
 			input[type="submit"].primary:after,
@@ -3255,7 +3261,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #A2F0D6;     /* default value #261c3e   >> this should change the color of the footer */
+			background-color: #272838;     /* default value #261c3e   >> this should change the color of the footer */
 		}
 
 		.wrapper.style1 {
@@ -3389,7 +3395,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #970C63;		/* default color: #5e42a6   */
+		background-color: #7D98A1;		/* default color: #5e42a6   */
 		cursor: default;
 		padding: 1.75em 2em;
 	}
