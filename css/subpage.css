@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #00DF51;		/* change the background color here */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
