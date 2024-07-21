@@ -1,6 +1,7 @@
-(setq markdown-css-paths '("/css/subpages.css))
-
-
+---
+layout: subpage
+title: MEGA KEWLER SUBPAGE TITLE
+---
 
 ## TEST PLA
 
