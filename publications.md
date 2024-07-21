@@ -1,8 +1,0 @@
----
-layout: subpage
-title: MEGA KEWLER SUBPAGE TITLE
----
-
-## TEST PLA
-
-THIS IS A KEWL LOREM IPSUM YOO
