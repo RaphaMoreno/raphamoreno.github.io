@@ -117,6 +117,9 @@ div.row.links {
 /* --------- Extra Button HTML ----------------------------------------------------------------- */
 
 .personal-extra-button {
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid #008000; 
     border-radius: 3px;
     transition: background-color 0.3s, color 0.3s;
@@ -128,6 +131,8 @@ div.row.links {
     text-align: center;
     text-decoration: none;
     width: 100%;
+    box-sizinh: border-box;
+    line-height: 1.5;
 
     &:hover {
         color: #008000;
