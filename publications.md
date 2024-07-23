@@ -10,7 +10,7 @@ RM Publications
 *   [Home](index.html)
 *   [About Me](aboutme.html)
 *   [Research](/research/project1.html)
-*   [Publications](publications.html)
+*   [Publications](publications.md)
 *   [Outreach](outreach.html)
 
 Publications
