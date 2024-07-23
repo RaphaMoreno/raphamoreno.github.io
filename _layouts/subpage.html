@@ -9,8 +9,11 @@
 		<title>THIS IS A SUBPAGE</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="/css/subpage.css" />
-		
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="{{ '/css/subpage.css' | /css/subpage.css }}"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="stylesheet" type="text/css"
+          	      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
 	</head>
 	
 	<body class="is-preload">
@@ -21,16 +24,23 @@
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="generic.html" class="active">SUBPAGE 1</a></li>
-            <li><a href="generic.html" class="active">SUBPAGE 2</a></li>
+						<li><a href="aboutme.html" class="active">About Me</a></li>
+            					<li><a href="generic.html" class="active">SUBPAGE 2</a></li>
 					</ul>
 				</nav>
 			</header>
-		<main>
-			{{ content }}
-		</main>
 
-		
+		<!-- Wrapper -->
+		<div id="wrapper">
+		<-- Main -->
+		<section id="main" class="wrapper>
+			<div class="inner">
+				<h2 class="major">{{ page.title }}</h2>
+				{{ content }}
+			</div>
+		</section>
+		</div>
+				
 		<!-- Footer -->
 			<footer id="footer" class="wrapper alt">
 				<div class="inner">
