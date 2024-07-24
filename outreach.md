@@ -3,10 +3,6 @@ layout: subpage
 title: Outreach
 ---
 
-
-Outreach
-------------
-
 ### Science Communication
 I'm a cool dude giving tours and stuff
 
