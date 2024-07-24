@@ -59,34 +59,6 @@ permalink: /
 </div>
 
 
-<!-- Social Links -->
-<div class="row justify-content-center links pt-1 pt-sm-2">
-    {% for hash in site.links %}
-    {% for linkInfo in hash %}
-    {% if linkInfo[1].show %}
-        <div class="col-xs-12 col-sm-2 col-lg-1 px-3 px-sm-0 mt-2 mt-sm-3 text-sm-center">
-            <a href="{{ linkInfo[1].href }}">
-                <i class="{{ linkInfo[1].icon }} fa-fw">
-                </i>
-                    <span class="d-inline d-sm-none">{{ linkInfo[1].name }}
-                    </span>
-            </a>
-        </div>
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
-</div>
-
-    
-<!-- Extra HTML Text -->
-{% if site.extra_html %}
-<div class="row justify-content-center">
-    <div class="col mt-3 text-sm-center fuse-core-extra">{{ site.extra_html }}
-    </div>
-</div>
-{% endif %}
-    
-    
 <!-- Buttons for Subpages -->
 <!-- About Me Subpage -->
 <div class="row justify-content-center pt-1 pt-sm-2">
@@ -123,6 +95,37 @@ permalink: /
 </div>
 
     
+<!-- Extra HTML Text -->
+{% if site.extra_html %}
+<div class="row justify-content-center">
+    <div class="col mt-3 text-sm-center fuse-core-extra">{{ site.extra_html }}
+    </div>
+</div>
+{% endif %}
+    
+    
+
+
+    
+<!-- Social Links -->
+<div class="row justify-content-center links pt-1 pt-sm-2">
+    {% for hash in site.links %}
+    {% for linkInfo in hash %}
+    {% if linkInfo[1].show %}
+        <div class="col-xs-12 col-sm-2 col-lg-1 px-3 px-sm-0 mt-2 mt-sm-3 text-sm-center">
+            <a href="{{ linkInfo[1].href }}">
+                <i class="{{ linkInfo[1].icon }} fa-fw">
+                </i>
+                    <span class="d-inline d-sm-none">{{ linkInfo[1].name }}
+                    </span>
+            </a>
+        </div>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+</div>
+
+
 <!-- Footer -->    
 <footer>
     <div class="container">
