@@ -22,16 +22,18 @@
 				<a href="{{ site.baseurl }}/" class="title">Homepage</a>
 				<nav>
 					<ul>
-						<li><a href="{{ site.baseurl }}/">Home</a></li>
-						<li><a href="{{ site.baseurl }}/aboutme" class="active">About Me</a></li>
-            					<li><a href="{{ site.baseurl }}/generic" class="active">SUBPAGE 2</a></li>
+						<li><a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
+						<li><a href="{{ site.baseurl }}/aboutme" class="{% if page.url == '/aboutme/' %}active{% endif %}">About Me</a></li>
+            					<li><a href="{{ site.baseurl }}/research" class="{% if page.url == '/research/' %}active{% endif %}">Research</a></li>
+						<li><a href="{{ site.baseurl }}/publications" class="{% if page.url == '/publications/' %}active{% endif %}">Publications</a></li>
+						<li><a href="{{ site.baseurl }}/outreach" class="{% if page.url == '/outreach/' %}active{% endif %}">Outreach</a></li>
 					</ul>
 				</nav>
 			</header>
 
 		<!-- Wrapper -->
 		<div id="wrapper">
-			<-- Main -->
+			<!-- Main -->
 			<section id="main" class="wrapper">
 				<div class="inner">
 					<h2 class="major">{{ page.title }}</h2>
