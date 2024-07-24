@@ -7,9 +7,6 @@ exclude: ['README.*', 'LICENSE.txt']
 sass:
     style: expanded
 
-kramdown:
-    input: GFM
-
 
 # CAUTION
 # When modifying this file, take care to preserve the indentation. This is YAML ...
