@@ -37,9 +37,7 @@
 			{ % if page.before-content % }
 				<div class="inner">
 					<h2 class="major">{{ page.title }}</h2>
-					{% for file in page.before-content %}
-					  {% include {{ file }} %}
-					{% endfor %}
+					{{ content }}
 				</div>
 			{% endif %}
 		</section>
