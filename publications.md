@@ -3,19 +3,6 @@ layout: subpage
 title: Publications
 ---
 
-RM Publications      
-
-[Homepage](index.html)
-
-*   [Home](index.html)
-*   [About Me](aboutme.html)
-*   [Research](/research/project1.html)
-*   [Publications](publications.md)
-*   [Outreach](outreach.html)
-
-Publications
-------------
-
 ### Peer-reviewed
 
 **2024**
@@ -33,6 +20,3 @@ Publications
 **2.** Donec eget **ex magna**. Interdum et malesuada fames ac ante _ipsum primis in faucibus_.
 
 **1.** Donec eget **ex magna**. Interdum et malesuada fames ac ante _ipsum primis in faucibus_.
-
-*   © Untitled. All rights reserved.
-*   Design: [HTML5 UP](http://html5up.net)
