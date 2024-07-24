@@ -3,15 +3,6 @@ layout: subpage
 title: Outreach
 ---
 
-RM Outreach      
-
-[Homepage](index.html)
-
-*   [Home](index.html)
-*   [About Me](aboutme.html)
-*   [Research](/research/project1.html)
-*   [Publications](publications.md)
-*   [Outreach](outreach.md)
 
 Outreach
 ------------
