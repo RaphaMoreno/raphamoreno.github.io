@@ -6,11 +6,10 @@
 -->
 <html>
 	<head>
-		<title>THIS IS A SUBPAGE</title>
+		<title>{{ page.title }}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<title>{{ page.title }}</title>
-		<link rel="stylesheet" href="{{ '/css/subpage.css' | /css/subpage.css }}"/>
+		<link rel="stylesheet" href="{{ '/css/subpage.css' | relative_url }}"/>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link rel="stylesheet" type="text/css"
           	      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
@@ -20,19 +19,19 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a href="index.html" class="title">Homepage</a>
+				<a href="{{ site.baseurl }}/" class="title">Homepage</a>
 				<nav>
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="aboutme.html" class="active">About Me</a></li>
-            					<li><a href="generic.html" class="active">SUBPAGE 2</a></li>
+						<li><a href="{{ site.baseurl }}/">Home</a></li>
+						<li><a href="{{ site.baseurl }}/aboutme" class="active">About Me</a></li>
+            					<li><a href="{{ site.baseurl }}/generic" class="active">SUBPAGE 2</a></li>
 					</ul>
 				</nav>
 			</header>
 
 		<!-- Wrapper -->
 		<div id="wrapper">
-		<-- Main -->
+			<-- Main -->
 			<section id="main" class="wrapper>
 				<div class="inner">
 					<h2 class="major">{{ page.title }}</h2>
