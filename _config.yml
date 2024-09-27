@@ -14,7 +14,7 @@ sass:
 # Main Headline, name required, subtitle optional
 name: Raphael Moreno, M.Sc.
 #subtitle:
-subtitle: This is • Work • in Progress
+subtitle: Paleontologist • Exhibition worker
 
 # Title attribute of HTML Page, uses 'name' from above if empty
 title: Raphael Moreno
@@ -98,22 +98,22 @@ links:
   - email:
       name: Email
       show: true
-      href: mailto:jonathan.doe@host.domain
+      href: mailto:stereospondyl@gmail.com
       icon: fas fa-envelope
   - researchgate:
       name: ResearchGate
       show: true
-      href: https://www.researchgate.net
+      href: https://www.researchgate.net/profile/Raphael-Moreno
       icon: fab fa-researchgate
   - orcid:
       name: ORCiD
       show: true
-      href: https://orcid.org/
+      href: https://orcid.org/0009-0006-6016-8499
       icon: fab fa-orcid
   - external_website:
       name: External Website
       show: true
-      href: https://www.google.de
+      href: https://www.naturkundemuseum-bw.de/forschung/palaeontologie/team-palaeontologie/raphael-moreno
       icon: fas fa-globe
   - google scholar:
       name: Google Scholar
@@ -130,9 +130,9 @@ links:
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
 extra_html: >
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores 
-    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+#    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+#    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores 
+#    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 
 # Extra Button which will be displayed below the Extra HTML. Keep it short. Leave empty to disable.
