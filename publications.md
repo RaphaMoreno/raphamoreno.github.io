@@ -7,9 +7,9 @@ title: Publications
 
 **2024**
 
-**4.** Schoch, R. R., Witzmann, F., **Moreno, R.**, Werneburg, R., Mujal, E. (in press): Growing giants: ontogeny and life history of the temnospondyl Mastodonsaurus giganteus from the Middle Triassic of Germany. Fossil Record special issue.
+**4.** Schoch, R. R., Witzmann, F., **Moreno, R.**, Werneburg, R., Mujal, E. (2024): Growing giants: ontogeny and life history of the temnospondyl Mastodonsaurus giganteus from the Middle Triassic of Germany. Fossil Record special issue.
 
-**3.** **Moreno, R.**, Chakravorti, S., Cooper, S. L. A., Schoch, R. R. (in press): Unexpected temnospondyl diversity in the early Carnian Grabfeld Formation (Germany) and the palaeogeography of metoposaurids. Fossil Record special issue.
+**3.** **Moreno, R.**, Chakravorti, S., Cooper, S. L. A., Schoch, R. R. (2024): Unexpected temnospondyl diversity in the early Carnian Grabfeld Formation (Germany) and the palaeogeography of metoposaurids. Fossil Record special issue.
 
 **2.** **Moreno, R.**, Dunne, E.M., Mujal, E., Farnsworth, A., Valdes, P. J., Schoch, R. R. (2024): Impact of environmental barriers on temnospondyl biogeography and dispersal during the Middle–Late Triassic. Palaeontology. https://doi.org/10.1111/pala.12724
 
