@@ -12,12 +12,12 @@ sass:
 # When modifying this file, take care to preserve the indentation. This is YAML ...
 
 # Main Headline, name required, subtitle optional
-name: Raphael Moreno, M.Sc.
+name: Dr. Raphael Moreno
 #subtitle:
-subtitle: Paleontologist • Exhibition worker
+subtitle: Palaeontologist • Temnospondyli • Exhibition curator Triassic Life
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title: Raphael Moreno
+title: Dr. Raphael Moreno
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
