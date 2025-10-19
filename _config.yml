@@ -118,7 +118,7 @@ links:
   - google scholar:
       name: Google Scholar
       show: true
-      href: https://scholar.google.com/citations?user=mWWD3GwAAAAJ&hl=de&oi=sra
+      href: https://scholar.google.de/citations?user=zCDtIeAAAAAJ&hl=de&oi=sra
       icon: fab fa-google
   - pdf:
       name: Curriculum
